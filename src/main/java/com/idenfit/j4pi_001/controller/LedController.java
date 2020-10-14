@@ -6,9 +6,11 @@ import com.pi4j.io.gpio.GpioPinDigitalOutput;
 import com.pi4j.io.gpio.RaspiPin;
 import com.pi4j.wiringpi.Gpio;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import static com.pi4j.io.gpio.PinState.HIGH;
 
+@RestController
 public class LedController {
 
     private static GpioPinDigitalOutput pin;
