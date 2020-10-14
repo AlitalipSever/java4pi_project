@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import static com.pi4j.io.gpio.PinState.HIGH;
+import static com.pi4j.io.gpio.PinState.LOW;
 
 @RestController
 public class LedController {
@@ -26,7 +27,9 @@ public class LedController {
         pin = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_01);
         for(int i=0;i<20;i++){
             pin.setState(HIGH);
-            Gpio.delay(500);
+            Gpio.delay(2000);
+            pin.setState(LOW);
+            Gpio.delay(2000);
         }
         gpio.shutdown();
         return "OK";
