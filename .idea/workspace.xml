@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53c40216-87eb-4da3-8c48-a6795ad47f32" name="Default Changelist" comment="">
+    <list default="true" id="53c40216-87eb-4da3-8c48-a6795ad47f32" name="Default Changelist" comment="adding rc522-java driver">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/idenfit/j4pi_001/util/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/idenfit/j4pi_001/util/RaspRC522.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/idenfit/j4pi_001/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idenfit/j4pi_001/controller/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/idenfit/j4pi_001/controller/LedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idenfit/j4pi_001/controller/LedController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,16 +39,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iroGKv1hh4B0XDGSPufBooETyX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,11 +65,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602674974596</updated>
-      <workItem from="1602674975990" duration="6211000" />
+      <workItem from="1602674975990" duration="6810000" />
+      <workItem from="1602746595914" duration="2965000" />
+      <workItem from="1603173927641" duration="1612000" />
+      <workItem from="1603179364048" duration="966000" />
+      <workItem from="1603180368302" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/main/java/com/idenfit/j4pi_001/rc522/Pi4j-RC522" />
+    </ignored-roots>
+    <MESSAGE value="adding rc522-java driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding rc522-java driver" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603180761040">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-130.1920.1040@0.0.1366.728" timestamp="1603180761040" />
+    <state x="322" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603180094212">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="322" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/-1920.-130.1920.1040@0.0.1366.728" timestamp="1603180094212" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1603180632511">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1920.-130.1920.1040@0.0.1366.728" timestamp="1603180632511" />
+    <state x="129" y="61" key="DiffContextDialog" timestamp="1603180424716">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="61" key="DiffContextDialog/0.0.1366.728/-1920.-130.1920.1040@0.0.1366.728" timestamp="1603180424716" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1603179433332">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728/-1920.-130.1920.1040@0.0.1366.728" timestamp="1603179433332" />
+    <state x="499" y="143" key="chooseDestDirectoryDialog" timestamp="1603178971256">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="143" key="chooseDestDirectoryDialog/0.0.1366.728/-1920.-130.1920.1040@0.0.1366.728" timestamp="1603178971256" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1603180371190">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-130.1920.1040@0.0.1366.728" timestamp="1603180371190" />
   </component>
 </project>
